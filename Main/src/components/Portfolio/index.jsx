@@ -1,40 +1,41 @@
 import { useState } from 'react';
 import Project from "../Project";
 
+
 function Portfolio() {
 
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surfReport',
-      description: 'MERN Stack',
+      name: 'Project 1',
+      description: 'React JS',
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      imageName: 'laptop'
+      
     },
     {
-      name: 'pastelPuzzels',
-      description: 'MERN Stack',
+      name: 'Project 2',
+      description: 'Postgres',
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      imageName: 'pastelPuzzels'
     },
     {
-      name: 'runBuddy',
+      name: 'Project 3',
       description: 'HTML/CSS',
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      imageName: 'code'
     },
     {
-      name: 'ledWall',
-      description: 'Node/IoT',
+      name: 'Project 4',
+      description: 'Automated Testing',
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      imageName: 'ledWall'
     },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
+    
   ]);
 
   return (
@@ -49,6 +50,6 @@ function Portfolio() {
       </div>
     </div>
   );
-};
+}
 
 export default Portfolio;
