@@ -1,7 +1,7 @@
 # Portfolio-React
 This Web Portal documents work completed in the  UNCC Full Stack Developer Boot Camp
 
-User Story:
+## User Story:
 
 AS AN employer looking for candidates with experience building single-page applications
 
@@ -9,7 +9,7 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 
 SO THAT I can assess whether they're a good candidate for an open position
 
-Acceptance Criteria:
+## Acceptance Criteria:
 
 GIVEN a single-page application portfolio for a web developer
 
@@ -61,12 +61,11 @@ WHEN I view the footer
 
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles.
 
-Mock-Up
-
+## Mock-Up
 
 ![alt text](mockup.gif)
 
-Links:
+## Links:
 
 https://github.com/argadeps/Portfolio-React
 
